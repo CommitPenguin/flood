@@ -1,0 +1,14 @@
+services:
+  flood:
+    build:
+      context: ../distribution/containers
+      dockerfile: Dockerfile.rtorrent
+      args:
+        FLOOD_VERSION: 4.11.0
+    image: nas/flood-rtorrent:4.11.0
+    container_name: flood
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - ./data:/home/download
