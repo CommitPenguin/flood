@@ -1,0 +1,3 @@
+{"username":"maren","password":"$argon2id$v=19$m=512,t=256,p=1$6CXnISVyVES23zQqYU/nNQ$UtOhjhL5uTBMxmvzR+RKPCppVV+p8Wo6UFsluTVDCto","client":{"client":"rTorrent","type":"socket","version":1,"socket":"/home/download/.local/share/rtorrent/rtorrent.sock"},"level":10,"timestamp":1794048852,"_id":"gSx3lvFzib90AfAr"}
+{"$$indexCreated":{"fieldName":"username","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"username","unique":true}}
